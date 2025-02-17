@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <input type="button" onclick=msg() name="">
+    <script type="text/javascript">
+        function msg(){
+            alert("yes iam calling");
+        }
+        var myname ="Sadia Jahan itu";<!--declare variable-->
+        //document.getElementById('demo').innerHTL=myname;
+        var x=10;
+        var y=20;
+        var z=x+y;
+        document.getElementById('demo').innerHTML=myname+z;
+        //documnet.write("<br\>");
+        if(x%2==0)
+    {
+       // document.write("even number");
+       //alert("even number");//it will create pop up box
+       //console.log("Even number");//we work on live
+    }
+    else
+    {
+        //document.write("odd number");
+       // alert("odd number");
+       //console.log("Even number");
+    }
+    if(x>y&&y>z)
+    {
+        document.write(x);
+    }
+     else if(y>x&&y>z)
+    {
+    document.write(y);
+    }
+      else
+    {
+    document.write(z+"<br\>"); 
+    }
+    for (var i=0;i<5;i++)
+    {
+        document.write(i+"<br\>");
+    }
+    for(var i=0;i<5;i++)//if we give equal it will count zero also
+    {
+    for(var j=0;j<=i;j++)
+    {
+        document.write("*");
+
+    }
+    document.write("<br\>");
+    } 
+    
+    
+
+
+    </script>
+</body>
+</html>
